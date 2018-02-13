@@ -9,6 +9,8 @@ elsif
 elsif
   index == "O"
   true
+else
+  true
 end
 
 end
