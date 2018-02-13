@@ -2,15 +2,13 @@
 def position_taken?(board, index)
 if
 index == " " || "" || nil
- true
+ false 
 elsif
   index == "X"
-  false
+  true
 elsif
   index == "O"
-  false
-else
-  false
+  true
 end
 
 end
