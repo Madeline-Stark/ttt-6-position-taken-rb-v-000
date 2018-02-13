@@ -1,13 +1,13 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
 if
-array[index] == " " || "" || nil
+index == " " || "" || nil
  false
 elsif
-  array[index] == "X"
+  index == "X"
   true
 elsif
-  array[index] == "O"
+  index == "O"
   true
 end
 
