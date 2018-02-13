@@ -7,7 +7,7 @@ elsif
   board[index] == ""
   false
 elsif
-  board[index] == "nil"
+  board[index] == nil
   false
 else
   true
